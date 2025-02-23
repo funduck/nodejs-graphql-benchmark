@@ -1,0 +1,1 @@
+wrk -t10 -c100 -d60s -s post.lua http://localhost:3000/graphql
